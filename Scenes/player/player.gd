@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var max_speed = 100
+@export var max_speed = 100 #this is a comment
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
