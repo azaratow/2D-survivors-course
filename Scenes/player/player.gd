@@ -13,6 +13,8 @@ func _process(delta: float) -> void:
 	var direction = movement_vector.normalized()
 	velocity = direction * max_speed
 	move_and_slide()
+	#if Input.is_action_just_pressed("confirm"):
+	#	max_speed = 300
 
 
 func get_movement_vector():
