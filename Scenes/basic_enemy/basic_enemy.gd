@@ -8,11 +8,10 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	var direction = get_direction_to_player()
 	velocity = direction * max_spoed
 	move_and_slide()
-
 
 func get_direction_to_player():
 	var player_node = get_tree().get_first_node_in_group("player") as Node2D
