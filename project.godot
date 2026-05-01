@@ -30,6 +30,7 @@ project/assembly_name="2D Survivors Course"
 [global_group]
 
 player=""
+enemy=""
 
 [input]
 
