@@ -4,3 +4,4 @@
 
 [node name="GameCamera" type="Camera2D" unique_id=1769733783]
 script = ExtResource("1_f7m5w")
+camera_smoothing_speed = 8

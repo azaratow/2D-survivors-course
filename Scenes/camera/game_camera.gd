@@ -1,7 +1,7 @@
 extends Camera2D
 
 var target_position = Vector2.ZERO
-@export var camera_smoothing_speed = 9                                   
+@export var camera_smoothing_speed = 10                              
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	make_current()

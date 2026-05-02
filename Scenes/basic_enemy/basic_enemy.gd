@@ -1,14 +1,14 @@
 extends CharacterBody2D
 
-@export var max_spoed = 23	
+@export var max_spoed = 80
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	$hurt_box.area_entered.connect(on_area_entered)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
+func _process(delta: float) -> void:
 	var direction = get_direction_to_player()
 	velocity = direction * max_spoed
 	move_and_slide()
@@ -18,3 +18,6 @@ func get_direction_to_player():
 	if player_node != null:
 		return (player_node.global_position - global_position).normalized()
 	return Vector2.ZERO
+
+func on_area_entered(other_area: Area2D):
+	queue_free()
