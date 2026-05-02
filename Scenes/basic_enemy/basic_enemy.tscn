@@ -3,6 +3,9 @@
 [ext_resource type="Script" uid="uid://gs2xene1psw0" path="res://Scenes/basic_enemy/basic_enemy.gd" id="1_2vdan"]
 [ext_resource type="Texture2D" uid="uid://br8h5l5skrknx" path="res://Scenes/basic_enemy/basic_enemy.png" id="1_12g7b"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_2vdan"]
+radius = 12.0415945
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_12g7b"]
 radius = 5.0
 
@@ -10,10 +13,16 @@ radius = 5.0
 collision_layer = 0
 script = ExtResource("1_2vdan")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2062410955]
+[node name="hurt_box" type="Area2D" parent="." unique_id=206406290]
+
+[node name="hurt_box_shape" type="CollisionShape2D" parent="hurt_box" unique_id=274042814]
+position = Vector2(0, -4)
+shape = SubResource("CircleShape2D_2vdan")
+
+[node name="enemy_sprite" type="Sprite2D" parent="." unique_id=2062410955]
 texture = ExtResource("1_12g7b")
 offset = Vector2(0, -4)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1822631478]
+[node name="enemy_collision_shape" type="CollisionShape2D" parent="." unique_id=1822631478]
 position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_12g7b")
