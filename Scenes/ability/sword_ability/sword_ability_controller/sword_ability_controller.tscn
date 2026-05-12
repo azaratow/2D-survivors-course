@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://diiqtg6rtbacd"]
 
-[ext_resource type="Script" uid="uid://cuddblapw4pin" path="res://Scenes/ability/sword_ability/sword_ability_controller/sword_ability_controller.gd" id="1_yylrx"]
-[ext_resource type="PackedScene" uid="uid://b8rxc1ae2nvyn" path="res://Scenes/ability/sword_ability/sword_ability.tscn" id="2_p4igh"]
+[ext_resource type="Script" uid="uid://cuddblapw4pin" path="res://scenes/ability/sword_ability/sword_ability_controller/sword_ability_controller.gd" id="1_yylrx"]
+[ext_resource type="PackedScene" uid="uid://b8rxc1ae2nvyn" path="res://scenes/ability/sword_ability/sword_ability.tscn" id="2_p4igh"]
 
 [node name="SwordAbilityController" type="Node" unique_id=667614870]
 script = ExtResource("1_yylrx")

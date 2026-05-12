@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b8rxc1ae2nvyn"]
 
-[ext_resource type="Texture2D" uid="uid://bajr1a360x1bf" path="res://Scenes/ability/sword_ability/tile_0104.png" id="1_b38r3"]
+[ext_resource type="Texture2D" uid="uid://bajr1a360x1bf" path="res://scenes/ability/sword_ability/tile_0104.png" id="1_b38r3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b38r3"]
 size = Vector2(30, 30)
