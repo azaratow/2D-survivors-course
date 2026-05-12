@@ -1,6 +1,6 @@
 extends Node
 
-@export var max_range: float = 95 # set the max range of the attack
+@export var max_range: float = 176 # set the max range of the attack
 
 @export var sword_ability: PackedScene #create a container for a packed scene in this case for a sword attack scene
 
