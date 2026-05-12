@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @export var max_spoed = 60
+@onready var HealthComponent: HealthComponent  = $HealthComponent
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -20,4 +21,4 @@ func get_direction_to_player():
 	return Vector2.ZERO
 
 func on_area_entered(other_area: Area2D):
-	queue_free()
+	HealthComponent.damage(100)
