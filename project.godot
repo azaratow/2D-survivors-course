@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-GameEvents="*uid://bl77itbwo30a3"
+GameEvents="*uid://dv6wclhemfb4y"
 
 [debug]
 
