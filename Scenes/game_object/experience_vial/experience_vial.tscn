@@ -8,6 +8,7 @@ radius = 17.0
 
 [node name="ExperienceVial" type="Node2D" unique_id=519753213]
 script = ExtResource("1_jmuu1")
+experience_granted = 1.79
 
 [node name="Area2D" type="Area2D" parent="." unique_id=713705044]
 collision_layer = 0

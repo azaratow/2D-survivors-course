@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://n5mymhw7xvbs" path="res://scenes/manager/arena_time_manager.tscn" id="2_4jhlv"]
 [ext_resource type="PackedScene" uid="uid://b7c41cphdv7yb" path="res://scenes/game_object/player/player.tscn" id="2_wcurd"]
 [ext_resource type="PackedScene" uid="uid://brrjk8otgwg4h" path="res://scenes/game_object/camera/game_camera.tscn" id="3_brlrh"]
+[ext_resource type="PackedScene" uid="uid://cs1220dkwpfno" path="res://scenes/manager/experience_manager.tscn" id="4_yyfjg"]
 [ext_resource type="PackedScene" uid="uid://cn7xhvojr7fkl" path="res://scenes/game_object/experience_vial/experience_vial.tscn" id="7_hujxm"]
 
 [node name="Main" type="Node" unique_id=1498345333]
@@ -16,6 +17,8 @@ arena_time_manager = NodePath("../ArenaTimeManager")
 [node name="ArenaTimeManager" parent="." unique_id=548463170 instance=ExtResource("2_4jhlv")]
 
 [node name="EnemyManager" parent="." unique_id=588864192 instance=ExtResource("1_wcurd")]
+
+[node name="ExperienceManager" parent="." unique_id=668752425 instance=ExtResource("4_yyfjg")]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=225887204]
 position = Vector2(15, -26)
@@ -30,3 +33,15 @@ position = Vector2(320, 176)
 
 [node name="ExperienceVial" parent="." unique_id=519753213 instance=ExtResource("7_hujxm")]
 position = Vector2(392, 136)
+
+[node name="ExperienceVial2" parent="." unique_id=248661376 instance=ExtResource("7_hujxm")]
+position = Vector2(456, 200)
+
+[node name="ExperienceVial3" parent="." unique_id=50184626 instance=ExtResource("7_hujxm")]
+position = Vector2(352, 264)
+
+[node name="ExperienceVial4" parent="." unique_id=1628683703 instance=ExtResource("7_hujxm")]
+position = Vector2(544, 136)
+
+[node name="ExperienceVial5" parent="." unique_id=354134667 instance=ExtResource("7_hujxm")]
+position = Vector2(497, 80)
