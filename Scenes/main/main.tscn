@@ -7,7 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://b7c41cphdv7yb" path="res://scenes/game_object/player/player.tscn" id="2_wcurd"]
 [ext_resource type="PackedScene" uid="uid://brrjk8otgwg4h" path="res://scenes/game_object/camera/game_camera.tscn" id="3_brlrh"]
 [ext_resource type="PackedScene" uid="uid://bwmfau3spmat6" path="res://scenes/manager/experience_manager.tscn" id="4_yyfjg"]
-[ext_resource type="PackedScene" uid="uid://cn7xhvojr7fkl" path="res://scenes/game_object/experience_vial/experience_vial.tscn" id="7_hujxm"]
 
 [node name="Main" type="Node" unique_id=1498345333]
 
@@ -30,18 +29,3 @@ position = Vector2(320, 176)
 
 [node name="GameCamera" parent="." unique_id=1769733783 instance=ExtResource("3_brlrh")]
 position = Vector2(320, 176)
-
-[node name="ExperienceVial" parent="." unique_id=519753213 instance=ExtResource("7_hujxm")]
-position = Vector2(392, 136)
-
-[node name="ExperienceVial2" parent="." unique_id=248661376 instance=ExtResource("7_hujxm")]
-position = Vector2(456, 200)
-
-[node name="ExperienceVial3" parent="." unique_id=50184626 instance=ExtResource("7_hujxm")]
-position = Vector2(352, 264)
-
-[node name="ExperienceVial4" parent="." unique_id=1628683703 instance=ExtResource("7_hujxm")]
-position = Vector2(544, 136)
-
-[node name="ExperienceVial5" parent="." unique_id=354134667 instance=ExtResource("7_hujxm")]
-position = Vector2(497, 80)

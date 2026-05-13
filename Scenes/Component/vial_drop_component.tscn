@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://dokaem4mohbsg"]
 
 [ext_resource type="Script" uid="uid://cgliowegwo5dd" path="res://scenes/Component/vial_drop_component.gd" id="1_fr1rl"]
+[ext_resource type="PackedScene" uid="uid://cn7xhvojr7fkl" path="res://scenes/game_object/experience_vial/experience_vial.tscn" id="2_45q5t"]
 
 [node name="VialDropComponent" type="Node" unique_id=1503021052]
 script = ExtResource("1_fr1rl")
+drop_percent = 0.2
+vial_scene = ExtResource("2_45q5t")
