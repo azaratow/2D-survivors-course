@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bajr1a360x1bf" path="res://scenes/ability/sword_ability/tile_0104.png" id="1_b38r3"]
 [ext_resource type="Script" uid="uid://bd4m84q3q1uav" path="res://scenes/ability/sword_ability/sword_ability.gd" id="1_t8g1f"]
-[ext_resource type="PackedScene" uid="uid://ds5cy77p81vw" path="res://scenes/Component/hit_box_component.tscn" id="2_abpad"]
+[ext_resource type="PackedScene" uid="uid://ds5cy77p81vw" path="res://scenes/component/hit_box_component.tscn" id="2_abpad"]
 
 [sub_resource type="Animation" id="Animation_b38r3"]
 length = 0.001

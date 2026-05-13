@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://gs2xene1psw0" path="res://scenes/game_object/basic_enemy/basic_enemy.gd" id="1_2vdan"]
 [ext_resource type="Texture2D" uid="uid://br8h5l5skrknx" path="res://scenes/game_object/basic_enemy/basic_enemy.png" id="1_12g7b"]
-[ext_resource type="PackedScene" uid="uid://dsa08ogrermjm" path="res://scenes/Component/health_component.tscn" id="2_isd1k"]
-[ext_resource type="PackedScene" uid="uid://dokaem4mohbsg" path="res://scenes/Component/vial_drop_component.tscn" id="3_elloc"]
-[ext_resource type="PackedScene" uid="uid://swbfbdsbpmya" path="res://scenes/Component/hurt_box_component.tscn" id="4_elloc"]
+[ext_resource type="PackedScene" uid="uid://dsa08ogrermjm" path="res://scenes/component/health_component.tscn" id="2_isd1k"]
+[ext_resource type="PackedScene" uid="uid://dokaem4mohbsg" path="res://scenes/component/vial_drop_component.tscn" id="3_elloc"]
+[ext_resource type="PackedScene" uid="uid://swbfbdsbpmya" path="res://scenes/component/hurt_box_component.tscn" id="4_elloc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_elloc"]
 radius = 12.0415945
