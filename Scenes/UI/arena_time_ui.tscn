@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b52pbvahxka6q"]
 
-[ext_resource type="Script" uid="uid://c6mfcrgv2bql8" path="res://scenes/UI/arena_time_ui.gd" id="1_77qiv"]
+[ext_resource type="Script" uid="uid://c6mfcrgv2bql8" path="res://Scenes/UI/arena_time_ui.gd" id="1_77qiv"]
 
 [node name="ArenaTimeUI" type="CanvasLayer" unique_id=1948146044 node_paths=PackedStringArray("arena_time_manager")]
 script = ExtResource("1_77qiv")
@@ -21,4 +21,4 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 0
 theme_override_constants/outline_size = 10
-text = "test"
+text = "ArenaTimer"
