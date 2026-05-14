@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var max_spoed = 60
-@onready var HealthComponent: HealthComponent  = $HealthComponent
+@onready var health_component: HealthComponent  = $HealthComponent
 
 
 
