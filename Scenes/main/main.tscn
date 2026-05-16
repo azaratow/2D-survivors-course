@@ -1,13 +1,13 @@
 [gd_scene format=4 uid="uid://c12mtdyasbtsp"]
 
 [ext_resource type="TileSet" uid="uid://bt6o006ck4l2i" path="res://resources/tileset.tres" id="1_4etoo"]
-[ext_resource type="PackedScene" uid="uid://b52pbvahxka6q" path="res://Scenes/UI/arena_time_ui.tscn" id="1_brlrh"]
-[ext_resource type="PackedScene" uid="uid://qjp8aygu67aq" path="res://Scenes/manager/enemy_manager.tscn" id="1_wcurd"]
-[ext_resource type="PackedScene" uid="uid://n5mymhw7xvbs" path="res://Scenes/manager/arena_time_manager.tscn" id="2_4jhlv"]
-[ext_resource type="PackedScene" uid="uid://b7c41cphdv7yb" path="res://Scenes/game_object/player/player.tscn" id="2_wcurd"]
-[ext_resource type="PackedScene" uid="uid://d4hg1o7k6ifxe" path="res://Scenes/UI/experience_bar.tscn" id="2_yyfjg"]
-[ext_resource type="PackedScene" uid="uid://brrjk8otgwg4h" path="res://Scenes/game_object/camera/game_camera.tscn" id="3_brlrh"]
-[ext_resource type="PackedScene" uid="uid://bwmfau3spmat6" path="res://Scenes/manager/experience_manager.tscn" id="4_yyfjg"]
+[ext_resource type="PackedScene" uid="uid://b52pbvahxka6q" path="res://scenes/UI/arena_time_ui.tscn" id="1_brlrh"]
+[ext_resource type="PackedScene" uid="uid://qjp8aygu67aq" path="res://scenes/manager/enemy_manager.tscn" id="1_wcurd"]
+[ext_resource type="PackedScene" uid="uid://n5mymhw7xvbs" path="res://scenes/manager/arena_time_manager.tscn" id="2_4jhlv"]
+[ext_resource type="PackedScene" uid="uid://b7c41cphdv7yb" path="res://scenes/game_object/player/player.tscn" id="2_wcurd"]
+[ext_resource type="PackedScene" uid="uid://d4hg1o7k6ifxe" path="res://scenes/UI/experience_bar.tscn" id="2_yyfjg"]
+[ext_resource type="PackedScene" uid="uid://brrjk8otgwg4h" path="res://scenes/game_object/camera/game_camera.tscn" id="3_brlrh"]
+[ext_resource type="PackedScene" uid="uid://bwmfau3spmat6" path="res://scenes/manager/experience_manager.tscn" id="4_yyfjg"]
 
 [node name="Main" type="Node" unique_id=1498345333]
 
